@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Radio+Canada&display=swap');
+
+body {
+    background-image: url(/cronometro.jpeg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0, 0.75);
+    font-family: 'Radio Canada', sans-serif;
+    color: white;
+}
+
+#titulo h1 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.cronometro {
+    height: 70px;
+    width: 350px;
+    border: 0.5px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 150px;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.cronometro:hover {
+    border: 1px solid #fae600;
+    cursor: pointer;
+}
+
+.buttons {
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 25px;
+    
+}
+
+.buttons button {
+    background: rgb(82,82,82);
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    border: 0.5px solid rgb(212, 212, 212);
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    border: 1px solid #fae600;
+    cursor: pointer;
+}
